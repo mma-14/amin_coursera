@@ -37,4 +37,21 @@
  */
 
 
+/* Size of the Data Set */
+#define SIZE (40)
+
+void print_array(unsigned char *ptr,int size);  
+
+unsigned char find_median(unsigned char *ptr,int size);
+
+float find_mean(unsigned char *ptr,int size);
+
+unsigned char find_maximum(unsigned char *ptr,int size);
+
+unsigned char find_minimum(unsigned char *ptr,int size);
+
+void sort_array(unsigned char *ptr,int size);
+
+void print_statistics(unsigned char *ptr,int size);
+
 #endif /* __STATS_H__ */
