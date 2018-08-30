@@ -54,4 +54,7 @@ void sort_array(unsigned char *ptr,int size);
 
 void print_statistics(unsigned char *ptr,int size);
 
+char i,j; /* global variables used in looping */
+
+
 #endif /* __STATS_H__ */
